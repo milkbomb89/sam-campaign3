@@ -1,47 +1,34 @@
 *{
-    box-sizing:border-box;
-    background-color: #ff6c6c
+    box-sizing: border-box;
+
 }
 
+body{
+    background-color: #ff6c6c;
 
-.card{
-    display:flex;
+}
+
+.img{
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 2%;
-
-
- 
-}
-
-.image{
-    display: inline-block;
-    position:static
-    
-    
-}
-
-.hilight{
-    position: absolute;
-
+    justify-items: center;
+    margin-top: 5%;
 }
 
 .logo{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-end;
-    align-items: center;    
     margin-top: 5%;
-
-
 }
 
-@media screen and (width< 600px) {
-    .image img{
-        width: 150px;
-        height: 215px;
-    }
+@media screen and (width<800px) {
+    .img img{
+        width: 200px;
+        height: auto;
+}
 
     .logo img{
         width: 86px;
